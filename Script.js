@@ -27,3 +27,5 @@ function addTask() {
 
     taskInput.value = "";
 }
+
+document.getElementById('add').addEventListener('click', addTask);
